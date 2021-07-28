@@ -43,7 +43,7 @@ const createNav = () => {
     about2List.setAttribute('class', 'tab');
 
     homeList.textContent = 'Home';
-    aboutList.textContent = 'About Us';
+    aboutList.textContent = 'About Nonny';
     about2List.textContent = 'About Thami';
 
     nav.classList = 'navbar';
