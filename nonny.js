@@ -70,17 +70,25 @@ text2.style.fontFamily = "Lucida console";
 text2.innerHTML= "a bit about me:"
 
 const resume = document.createElement('a');
+resume.href = 'resume.pdf';
+resume.target = '_blank';
+resume.style.textDecoration = "none";
 resume.classList.add("resume");
-resume.style.textAlign ='center';
 resume.innerHTML = '<br>'+'<br>'+'My resume';
 
 const projects = document.createElement('a');
 projects.classList.add("projects");
+projects.href = 'https://github.com/Nonny-Mahao?tab=repositories';
+projects.target = '_blank';
+projects.style.textDecoration = "none";
 projects.innerHTML = '<br>'+'<br>'+'My projects';
 
 
 const contact = document.createElement('a');
 contact.classList.add("contact");
+contact.href = 'mailto:noncedomahao@gmail.com';
+contact.target = '_blank';
+contact.style.textDecoration = "none";
 contact.innerHTML = '<br>'+'<br>'+'Contact Me';
 
 const des = document.createElement('h4');
