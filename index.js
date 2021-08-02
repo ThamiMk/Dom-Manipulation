@@ -60,8 +60,15 @@ const createNav = () => {
   image2.style.cssText = 'width: 100%; height: 600px';
   image2.style.filter = "blur(4px)";
 
-  const text = document.createElement('h1');
+  const image3 = document.createElement('img');
+  image3.src = 'girls.png';
+  image3.classList.add("bg-image");
+  image3.style.cssText = 'width: 400px; height: 250px';
+  //image3.style.filter = "blur(3px)";
+
+  const text = document.createElement('h3');
   text.classList.add("bg-text");
+  text.style.fontFamily = "Lucida handwriting";
   text.innerHTML= "HOORAY!!!"+'<br>'+"Welcome to the world of " + '<br />' +"GIRLCODERS." + '<br>' + "Find all there is to know about our beautiful girls on their about pages.";
 
   
@@ -70,6 +77,7 @@ const navbar = createNav();
 const mainDiv = document.getElementById('content');
 body.appendChild(navbar);
 body.appendChild(image2);
+body.appendChild(image3);
 body.appendChild(text);
 
 
