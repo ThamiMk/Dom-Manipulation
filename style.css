@@ -21,13 +21,119 @@
     /*color: purple; */
     font-weight: bold;
    /* border: 1.5px solid powderblue; */
-    border-radius: 25px;
+    border-radius: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-120%, -80%);
     z-index: 2;
     width: 40%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bg-text2 {
+    /* background-color: rgb(0,0,0); /* Fallback color */
+    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+     /*color: purple; */
+     font-weight: bold;
+    /* border: 1.5px solid powderblue; */
+     border-radius: 100px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-280px, -240px);
+     z-index: 2;
+     width: 40%;
+     padding: 20px;
+     text-align: center;
+   }
+
+
+   .bg-text3 {
+    /* background-color: rgb(0,0,0); /* Fallback color */
+    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+     /*color: purple; */
+     font-weight: bold;
+    /* border: 1.5px solid powderblue; */
+     border-radius: 100px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-220px, -160px);
+     z-index: 2;
+     width: 40%;
+     padding: 20px;
+     text-align: center;
+   }
+
+   .resume {
+     background-color: crimson;
+    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+     /*color: purple; */
+     font-weight: bold;
+    /* border: 1.5px solid powderblue; */
+     border-radius: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-20px, -80px);
+     z-index: 2;
+     width: 100px;
+     height: 100px;
+     padding: 20px;
+     text-align: center;
+   }
+
+   .projects {
+     background-color: aqua;
+    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+     /*color: purple; */
+     font-weight: bold;
+    /* border: 1.5px solid powderblue; */
+     border-radius: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(160px, -80px);
+     z-index: 2;
+     width: 100px;
+     height: 100px;
+     padding: 20px;
+     text-align: center;
+   }
+
+   .contact {
+     background-color: yellow;
+    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+     /*color: purple; */
+     font-weight: bold;
+    /* border: 1.5px solid powderblue; */
+     border-radius: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(340px, -80px);
+     z-index: 2;
+     width: 100px;
+     height: 100px;
+     padding: 20px;
+     text-align: center;
+   }
+
+   .des {
+    /*background-color: yellow;
+   /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+    /*color: purple; */
+    font-weight: bold;
+   /* border: 1.5px solid powderblue; */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20px, 60px);
+    z-index: 2;
+    width: 550px;
     padding: 20px;
     text-align: center;
   }
