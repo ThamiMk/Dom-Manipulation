@@ -74,10 +74,11 @@ const createNav = () => {
   
 const body = document.querySelector('body');
 const navbar = createNav();
-const mainDiv = document.getElementById('content');
+//const mainDiv = document.getElementById('content');
 body.appendChild(navbar);
 body.appendChild(image2);
 body.appendChild(image3);
 body.appendChild(text);
 
-
+/* import {Footer} from './footer.js'
+body.appendChild(Footer.footerGC()); */
