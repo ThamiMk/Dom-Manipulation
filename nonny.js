@@ -106,7 +106,7 @@ un.style.alignContent = "center";
 un.style.listStyleType = "none";
 
 const call = document.createElement('a');
-call.href = "";
+call.href = "tel:076234567";
 call.style.flex = 'auto';
 const logo1 = document.createElement('i');
 logo1.className = "fa fa-phone-square fa-rotate-90";
@@ -162,6 +162,7 @@ list3.style.textAlign = "center";
 const github = document.createElement('a');
 github.href = "https://github.com/Nonny-Mahao";
 const logoG = document.createElement('i');
+logoG.style.color = 'black';
 logoG.className = 'fab fa-github';
 github.appendChild(logoG);
 list3.appendChild(github);
@@ -170,13 +171,15 @@ const linkedin = document.createElement('a');
 linkedin.href = "https://www.linkedin.com/in/noncedo-madwe-b50002180/";
 const logoL = document.createElement('i');
 logoL.className = 'fab fa-linkedin';
+logoL.style.color = 'blue';
 linkedin.appendChild(logoL);
 list3.appendChild(linkedin);
 
 const insta = document.createElement('a');
 insta.href = "https://www.instagram.com/nonny_mahao/";
 const logoI = document.createElement('i');
-logoI.className = 'fab fa-instagram';
+logoI.className = 'fab fa-instagram-square';
+logoI.style.color = '#FF1493';
 insta.appendChild(logoI);
 list3.appendChild(insta);
 
