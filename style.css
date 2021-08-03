@@ -138,43 +138,6 @@
     text-align: center;
   }
 
-<<<<<<< HEAD
-  .footer {
-    background-color: salmon;
-   /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-    /*color: purple; */
-    font-weight: bold;
-    border: 1px solid #ccc;  
-    position: relative;
-    bottom: 0;
-    left: 0;
-    margin-top: 20px;
-    height: 70px;
-    padding: 20px;
-    text-align: center;
-  }
-
-  .list1{
-    position: relative;
-    margin-top: 20px;
-    transform: translate(-300px, -80px);
-    text-align: center;
-  }
-
-  .list2{
-    position: relative;
-    margin-top: 20px;
-    transform: translate(160px, -140px);
-  }
-
-
-  .list3{
-    position: relative;
-    margin-top: 20px;
-    transform: translate(510px, -200px);
-  }
-  
-=======
   .footers{
     background-color: pink;
 	position: fixed;
@@ -206,4 +169,3 @@ a{
   color: black;
   margin-inline: 20px;
 }
->>>>>>> c3c0cd6db2a40f1a81fb843b11d84d47d4ce60f0
