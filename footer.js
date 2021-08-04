@@ -15,7 +15,9 @@ export const Footer = (() => {
         logo3.className = 'fas fa-map-marker-alt';
         logo3.style.color = 'red';
         logo3.style.fontSize = "70px";
-        logoC.style.marginRight = "10px"
+        logoC.style.marginRight = "20px"
+        logoC.style.marginTop = "18px";
+        logoC.style.marginLeft = "10px";
         logo3.style.textAlign = "center";
         logoC.appendChild(logo3);
         footerGC.appendChild(logoC);
@@ -27,10 +29,10 @@ export const Footer = (() => {
 
         //Creating Contact us section
         const logo4 = document.createElement('i');
-        logo4.className = "fas fa-phone-square";
+        logo4.className = "fas fa-phone-square fa-rotate-90";
         logo4.style.fontSize = '70px';
         footerGC.appendChild (logo4);
-        logo4.style.marginRight = "10px"
+        logo4.style.marginRight = "30px"
         const phone  = document.createElement('p');
         phone.innerHTML = 'Call: '+'<br>'+'+27 614 441 737'+'<br>'+'Or Email: '+'<br>'+'info@girlcode.co.za';
         phone.style.marginRight = "300px"
@@ -50,6 +52,7 @@ export const Footer = (() => {
         logo.className = 'fab fa-twitter';
         logo.style.fontSize = '70px'
         logo.style.marginRight = "10px"
+        logo.style.marginTop = "10px";
         logo.target = '_blank';
         logoA.appendChild(logo);
         footerGC.appendChild(logoA);
@@ -60,6 +63,7 @@ export const Footer = (() => {
         logo2.className = 'fab fa-instagram';
         logo2.style.color = 'white';
         logo2.style.fontSize = '70px';
+        logo2.style.marginTop = "10px";
         logo2.target = '_blank';
         
         logoB.appendChild(logo2);
