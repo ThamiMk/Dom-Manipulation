@@ -20,6 +20,7 @@ const createNav = () => {
     homeList.style.textDecoration = "none";
     homeList.style.color = 'white';
     homeList.style.flex = "auto";
+    homeList.style.fontSize = "22px";
     homeList.style.textAlign = "center";
 
     const aboutList = document.createElement('a');
@@ -27,6 +28,7 @@ const createNav = () => {
     aboutList.style.textDecoration = "none";
     aboutList.style.color = 'white';
     aboutList.style.flex = "auto";
+    aboutList.style.fontSize = "22px";
     aboutList.style.textAlign = "center";
 
     const about2List = document.createElement('a');
@@ -34,6 +36,7 @@ const createNav = () => {
     about2List.style.textDecoration = "none";
     about2List.style.color = 'white';
     about2List.style.flex = "auto";
+    about2List.style.fontSize = "22px";
     about2List.style.textAlign = "center";
 
     homeList.setAttribute('class', 'tab');

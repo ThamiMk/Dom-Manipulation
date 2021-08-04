@@ -138,34 +138,67 @@
     text-align: center;
   }
 
-  .footers{
+  .heading{
     background-color: pink;
+    width: 100%;
+    height: 55px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 40px;
+}
+
+  .footers{
+  background-color: salmon;
 	position: fixed;
 	bottom:0;
 	left: 0;
 	width: 100%;
-	height: 5%;
-    text-align: center;
+  display: flex;
 }
 
 .sides{
   float: left;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-left: 80px;
   border-radius: 50%;
+  border-color: pink;
+  border-width: 10px;
+  border-style: solid;
 }
 
 .story{
   float: right;
-  margin-top: 100px;
+  margin-top: 75px;
   margin-right: 80px;
   font-size: 28px;
   text-align: center;
 }
 
-a{
-  font-size: 25px;
+cir{
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+    width: 100px;
+    font-size: 22px;
+    height: 80px;
+    padding: 40px;
+    margin-left: 30px;
+}
+
+.logs{
   text-align: justify;
   color: black;
-  margin-inline: 20px;
+  font-size: 58px;
+}
+
+.log1{
+  text-align: justify;
+  color: LightSkyBlue;
+  font-size: 60px;
+}
+
+.log2{
+  color: white;
+  font-size: 55px;
 }
