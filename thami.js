@@ -91,7 +91,7 @@ footer.appendChild(contact);
 
 // Links to my personal work accounnts
 const prof = document.createElement('p');
-prof.innerHTML = "followe me on LinkedIn"+"<br>"+"and GitHub";
+prof.innerHTML = "Follow me on LinkedIn"+"<br>"+"and GitHub";
 prof.style.color = "White";
 footer.appendChild(prof);
 
