@@ -1,5 +1,9 @@
 document.body.style.backgroundColor = "#FFF0F5";
 document.body.style.color = 'white';
+document.body.style.padding = "0";
+document.body.style.margin = "0";
+
+import {Footer} from './footer.js';
 
 const createNav = () => {
     const nav = document.createElement('nav');
@@ -10,10 +14,14 @@ const createNav = () => {
     unOrdered.style.alignContent = "center";
     unOrdered.style.listStyleType = "none";
 
+    const image = document.createElement('a');
+    image.href = "https://girlcode.co.za/"
+    image.target = '_blank';
     let img = document.createElement('img');
     img.src = 'girlcode.png';
     img.style.cssText = 'width: 90px; height: 50px';
     img.style.marginTop = '-15px';
+    image.appendChild(img)
     
     const homeList = document.createElement('a');
     homeList.href = "index.html"; 
@@ -49,7 +57,7 @@ const createNav = () => {
 
     nav.classList = 'navbar';
 
-    unOrdered.appendChild(img);
+    unOrdered.appendChild(image);
     unOrdered.appendChild(homeList);
     unOrdered.appendChild(aboutList);
     unOrdered.appendChild(about2List);
@@ -60,16 +68,16 @@ const createNav = () => {
 
   const image2 = document.createElement('img');
   image2.src = 'flower.jpg';
-  image2.style.cssText = 'width: 100%; height: 600px';
+  image2.style.cssText = 'width: 100%; height: 500px';
   image2.style.filter = "blur(4px)";
 
   const image3 = document.createElement('img');
   image3.src = 'girls.png';
   image3.classList.add("bg-image");
-  image3.style.cssText = 'width: 400px; height: 250px';
+  image3.style.cssText = 'width: 400px; height: 200px';
   //image3.style.filter = "blur(3px)";
 
-  const text = document.createElement('h3');
+  const text = document.createElement('h4');
   text.classList.add("bg-text");
   text.style.fontFamily = "Lucida handwriting";
   text.innerHTML= "HOORAY!!!"+'<br>'+"Welcome to the world of " + '<br />' +"GIRLCODERS." + '<br>' + "Find all there is to know about our beautiful girls on their about pages.";
@@ -83,5 +91,5 @@ body.appendChild(image2);
 body.appendChild(image3);
 body.appendChild(text);
 
-/* import {Footer} from './footer.js'
-body.appendChild(Footer.footerGC()); */
+const container = document.querySelector('#container');
+container.appendChild(Footer.footerGC);

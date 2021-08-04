@@ -24,6 +24,7 @@ const image = document.createElement('a');
 image.href = "https://girlcode.co.za/"
 const img2 = document.createElement('img');
 img2.src = "girlcode.png"
+image.target = '_blank';
 img2.style.cssText = 'width: 90px; height: 50px';
 img2.style.marginLeft = "300px"
 image.appendChild(img2);
@@ -75,6 +76,7 @@ footer.classList.add('footers');
 const logoB = document.createElement ('a');
 logoB.classList.add('log2');
 logoB.href = "mailto:thamsanqa.kekana@ymail.com";
+logoB.target = '_blank';
 const logo2 = document.createElement('i');
 logo2.className = "fa fa-envelope-square";
 logoB.appendChild(logo2);
@@ -96,6 +98,7 @@ footer.appendChild(prof);
 const logoA = document.createElement('a');
 logoA.classList.add('log1');
 logoA.href = "https://www.linkedin.com/in/thamsanqa-kekana-97799b19a/";
+logoA.target = '_blank';
 const logo = document.createElement('i');
 logo.className = 'fab fa-linkedin';
 logo.style.marginLeft ="15px";
@@ -105,6 +108,7 @@ footer.appendChild(logoA);
 const logoc = document.createElement('a');
 logoc.classList.add('logs');
 logoc.href = "https://github.com/ThamiMk";
+logoc.target = '_blank';
 const logo1 = document.createElement('i');
 logo1.className = 'fab fa-github';
 logoc.appendChild(logo1);
