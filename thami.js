@@ -66,8 +66,6 @@ db.innerHTML = "Databases (mySQL, SQLite)";
 info.appendChild(db);
 
 
-
-
 // adding a footer 
 const footer = document.createElement('div');
 footer.classList.add('footers');
@@ -89,7 +87,7 @@ contact.style.marginRight = "555px";
 contact.style.color = "White";
 footer.appendChild(contact);
 
-// Links to my personal work accounnts
+// Links to my professional accounnts
 const prof = document.createElement('p');
 prof.innerHTML = "Follow me on LinkedIn"+"<br>"+"and GitHub";
 prof.style.color = "White";
