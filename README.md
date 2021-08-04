@@ -1,5 +1,9 @@
 # Dom-Manipulation
 
+![Screenshot](Pic.png)
+
+[LIVE DEMO](https://thamimk.github.io/Dom-Manipulation/)
+
 ## Colabrorators:
 Nonny [Nonny-Mahao] and Thami [ThamiMk]
 
