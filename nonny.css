@@ -16,11 +16,7 @@
   }
 
   .bg-image {
-   /* background-color: rgb(0,0,0); /* Fallback color */
-   /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-    /*color: purple; */
     font-weight: bold;
-   /* border: 1.5px solid powderblue; */
     border-radius: 100px;
     position: absolute;
     top: 50%;
@@ -33,11 +29,7 @@
   }
 
   .bg-text2 {
-    /* background-color: rgb(0,0,0); /* Fallback color */
-    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-     /*color: purple; */
      font-weight: bold;
-    /* border: 1.5px solid powderblue; */
      border-radius: 100px;
      position: absolute;
      top: 50%;
@@ -51,11 +43,7 @@
 
 
    .bg-text3 {
-    /* background-color: rgb(0,0,0); /* Fallback color */
-    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-     /*color: purple; */
      font-weight: bold;
-    /* border: 1.5px solid powderblue; */
      border-radius: 100px;
      position: absolute;
      top: 50%;
@@ -69,10 +57,7 @@
 
    .resume {
      background-color: crimson;
-    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-     /*color: purple; */
      font-weight: bold;
-    /* border: 1.5px solid powderblue; */
      border-radius: 50%;
      position: absolute;
      top: 50%;
@@ -87,10 +72,7 @@
 
    .projects {
      background-color: aqua;
-    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-     /*color: purple; */
      font-weight: bold;
-    /* border: 1.5px solid powderblue; */
      border-radius: 50%;
      position: absolute;
      top: 50%;
@@ -105,10 +87,7 @@
 
    .contact {
      background-color: yellow;
-    /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-     /*color: purple; */
      font-weight: bold;
-    /* border: 1.5px solid powderblue; */
      border-radius: 50%;
      position: absolute;
      top: 50%;
@@ -122,11 +101,7 @@
    }
 
    .des {
-    /*background-color: yellow;
-   /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-    /*color: purple; */
     font-weight: bold;
-   /* border: 1.5px solid powderblue; */
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -140,8 +115,6 @@
 
   .footer {
     background-color: salmon;
-   /* background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
-    /*color: purple; */
     font-weight: bold;
     border: 1px solid #ccc;  
     position: relative;

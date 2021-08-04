@@ -1,6 +1,6 @@
 document.body.style.backgroundColor = "pink";
 document.body.style.color = 'black';
-//document.body.style.height = '100px';
+
 
 const aboutList = document.createElement('h1');
 aboutList.style.flex = "auto";
@@ -114,7 +114,7 @@ call.style.color = "white";
 call.style.fontSize = "50px";
 call.appendChild(logo1);
 un.appendChild(call);
-//footer.appendChild(call);
+
 
 const list1 = document.createElement('h4');
 list1.style.color = 'white';
@@ -124,7 +124,7 @@ list1.classList.add('list1');
 list1.style.textAlign = "center";
 
 const email = document.createElement('a');
-email.href = "";
+email.href = "mailto:noncedomahao@gmail.com";
 email.style.flex = 'auto';
 const logo2 = document.createElement('i');
 logo2.className = "fa fa-envelope-square";
@@ -132,7 +132,7 @@ email.style.color = "white";
 email.style.fontSize = "50px";
 email.appendChild(logo2);
 un.appendChild(email);
-//footer.appendChild(email);
+
 
 const list2 = document.createElement('h4');
 list2.style.color = 'white';
@@ -150,7 +150,6 @@ follow.style.color = "white";
 follow.style.fontSize = "50px";
 follow.appendChild(logo3);
 un.appendChild(follow);
-//footer.appendChild(follow);
 
 const list3 = document.createElement('h4');
 list3.style.color = 'white';
@@ -164,6 +163,7 @@ github.href = "https://github.com/Nonny-Mahao";
 const logoG = document.createElement('i');
 logoG.style.color = 'black';
 logoG.className = 'fab fa-github';
+logoG.style.fontSize = '30px';
 github.appendChild(logoG);
 list3.appendChild(github);
 
@@ -171,6 +171,7 @@ const linkedin = document.createElement('a');
 linkedin.href = "https://www.linkedin.com/in/noncedo-madwe-b50002180/";
 const logoL = document.createElement('i');
 logoL.className = 'fab fa-linkedin';
+logoL.style.fontSize = '30px';
 logoL.style.color = 'blue';
 linkedin.appendChild(logoL);
 list3.appendChild(linkedin);
@@ -179,6 +180,7 @@ const insta = document.createElement('a');
 insta.href = "https://www.instagram.com/nonny_mahao/";
 const logoI = document.createElement('i');
 logoI.className = 'fab fa-instagram-square';
+logoI.style.fontSize = '30px';
 logoI.style.color = '#FF1493';
 insta.appendChild(logoI);
 list3.appendChild(insta);
