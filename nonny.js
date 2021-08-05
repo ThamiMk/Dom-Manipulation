@@ -33,7 +33,7 @@ homeList.style.flex = "auto";
 homeList.style.textAlign = "center";
 
 let img = document.createElement('img');
-img.src = 'girlcode.png';
+img.src = 'images/girlcode.png';
 img.style.cssText = 'width: 90px; height: 50px';
 img.style.marginTop = '-15px';
 
@@ -54,7 +54,7 @@ nav.appendChild(unOrdered);
 
 
 const nonny = document.createElement('img');
-nonny.src = 'img.jpg';
+nonny.src = 'images/img.jpg';
 nonny.style.cssText = 'width: 600px; height: 450px';
 nonny.style.marginLeft = '10px';
 nonny.style.borderRadius = '50%';

@@ -23,7 +23,7 @@ header.appendChild(home);
 const image = document.createElement('a');
 image.href = "https://girlcode.co.za/"
 const img2 = document.createElement('img');
-img2.src = "girlcode.png"
+img2.src = "images/girlcode.png"
 image.target = '_blank';
 img2.style.cssText = 'width: 90px; height: 50px';
 img2.style.marginLeft = "300px"
@@ -38,7 +38,7 @@ aside.classList.add('sides');
 document.body.appendChild(aside);
 
 let img = document.createElement('img');
-img.src = 'thami.png';
+img.src = 'images/thami.png';
 img.style.cssText = 'width: 450px; height: 450px';
 img.style.borderRadius = '50%';
 aside.appendChild(img);

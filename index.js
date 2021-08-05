@@ -18,7 +18,7 @@ const createNav = () => {
     image.href = "https://girlcode.co.za/"
     image.target = '_blank';
     let img = document.createElement('img');
-    img.src = 'girlcode.png';
+    img.src = 'images/girlcode.png';
     img.style.cssText = 'width: 90px; height: 50px';
     img.style.marginTop = '-15px';
     image.appendChild(img)
@@ -67,12 +67,12 @@ const createNav = () => {
   };
 
   const image2 = document.createElement('img');
-  image2.src = 'flower.jpg';
+  image2.src = 'images/flower.jpg';
   image2.style.cssText = 'width: 100%; height: 500px';
   image2.style.filter = "blur(4px)";
 
   const image3 = document.createElement('img');
-  image3.src = 'girls.png';
+  image3.src = 'images/girls.png';
   image3.classList.add("bg-image");
   image3.style.cssText = 'width: 400px; height: 200px';
   //image3.style.filter = "blur(3px)";
